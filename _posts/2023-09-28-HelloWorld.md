@@ -1,6 +1,7 @@
 ---
 layout: single
-title:  "Github Page First Posting"
+title: "Github Page First Posting"
+categories: "notification"
 ---
 
 # Welcome
