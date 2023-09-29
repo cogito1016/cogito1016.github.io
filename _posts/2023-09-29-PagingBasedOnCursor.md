@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "커서기반페이징이란?"
+title: "[커서기반페이징] 1.커서기반페이징이란?"
 categories: "paging"
 tag: ["api","paging","refactoring"]
 toc: true
@@ -127,4 +127,69 @@ UI에 페이지네이션을 구현하려면 총 페이지 수와 현재 페이�
 
 데이터의 timestamp로 커서기반페이징을 구현하려고한다.
 
-또한 timestamp가 수정되어 데이터중복이 될 수 있는 상황을 대비하여(이런 상황이 발생되면 안되겠지만) idx도 timestamp와 더불어 사용하려고 한다.
+또한 timestamp가 수정되어 데이터중복이 될 수 있는 상황을 대비하여(이런 상황이 발생되면 안되겠지만) index도 timestamp와 더불어 사용하려고 한다.
+
+
+
+**용어 치환**
+
+- timestamp : time
+- index : idx
+
+
+
+## 3.1.최초조회 시
+
+```sql
+select idx,time
+from member
+order by time desc, idx desc
+limit 5; 
+# 마지막 idx = 5, 마지막 time = 2023-05-15 17:16:02
+```
+
+- 기준은 time과 idx의 desc이다.
+- 그렇다면 마지막 idx와 time을 기준으로 다음 조회를 사용할 수 있다.
+
+
+
+## 3.2.다음조회 시
+
+```sql
+select idx,time
+from member
+where time <= '2023-05-15 17:16:02' and idx < 5
+order by time desc, idx desc
+limit 5;
+```
+
+- 최초 조회 시 얻었던 idx와 time을 사용하여 손쉽게 다음 데이터를 얻을 수 있었다.
+
+
+
+# 4.결과
+
+만약 time이 2023-05-15 17:16:02인 또 다른 데이터가 있다 하더라도,
+
+idx라는 안전장치를 걸어주었기 때문에 
+
+중복된 데이터를 건너 뛸 위험성 없이 안전하게 다음 데이터를 가져올 수 있다.
+
+
+
+# 5.Next
+
+위 처럼 개선하기위해서는 idx와 wtime을 파라미터로 받는 API가 있어야한다.
+
+그러나 다음과 같은 대표적인 두 이유로 인해 idx와 wtime을 파라미터로 직접받지않는다.
+
+- API 클라이언트의 조작방지
+- 신뢰성 보장
+
+그러면 어떻게 이를 해결할 수 있을까?
+
+바로 bas64인코딩을 통해 해결할 수 있다.
+
+
+
+**다음편에 계속**
