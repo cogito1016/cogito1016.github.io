@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "커서기반페이징이란?"
-categories: "페이징"
+categories: "paging"
 toc: true
 ---
 
