@@ -2,7 +2,7 @@
 layout: single
 title: "[커서기반페이징] 2.Base64인코딩된 토큰으로 통신하라"
 categories: "paging"
-tag: ["api","paging","refactoring","encoding"]
+tag: ["api","refactoring","encoding"]
 toc: true
 ---
 
