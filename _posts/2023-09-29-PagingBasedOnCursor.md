@@ -2,9 +2,11 @@
 layout: single
 title: "[커서기반페이징] 1.커서기반페이징이란?"
 categories: "paging"
-tag: ["api","paging","refactoring"]
+tag: ["api","paging","refactoring","cursor-based-paging"]
 toc: true
 ---
+
+데이터의 범위를 정하는건 오프셋방식만 있는것이 아니다.
 
 # 배경
 
