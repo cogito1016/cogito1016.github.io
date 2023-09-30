@@ -12,7 +12,7 @@ toc: true
 
 ## 1.1.왜 Base64인코딩으로 통신을할까?
 
-[1.커서기반페이징이란?][https://cogito1016.github.io/paging/PagingBasedOnCursor/] 편의 마지막에 언급했던 것 처럼,
+[1.커서기반페이징이란?](https://cogito1016.github.io/paging/PagingBasedOnCursor/) 편의 마지막에 언급했던 것 처럼,
 
 - API 클라이언트의 조작방지
 - 신뢰성 보장
