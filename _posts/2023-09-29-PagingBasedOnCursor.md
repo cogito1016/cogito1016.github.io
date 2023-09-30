@@ -8,6 +8,18 @@ toc: true
 
 데이터의 범위를 정하는건 오프셋방식만 있는것이 아니다.
 
+# 시리즈
+
+[1.커서기반페이징이란?](https://cogito1016.github.io/paging/PagingBasedOnCursor/)
+
+[2.Base64인코딩된 토큰을 사용한 API 통신](https://cogito1016.github.io/paging/1.Base64Encoding/)
+
+[3.커서기반페이징 API Request/Response의 BestPractice를 찾아서](https://cogito1016.github.io/paging/2.CursorPagingBestPractice/)
+
+
+
+---
+
 # 배경
 
 언젠가 원인을 알수없는 select count(\*)의 무수한 호출로 인해 원인파악 요청을 받은적이 있었다.
