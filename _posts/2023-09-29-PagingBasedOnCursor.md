@@ -2,7 +2,7 @@
 layout: single
 title: "[커서기반페이징] 1.커서기반페이징이란?"
 categories: "paging"
-tag: ["api","paging","refactoring","cursor-based-paging"]
+tag: ["api","paging","refactoring","[series]cursor-based-paging"]
 toc: true
 ---
 
