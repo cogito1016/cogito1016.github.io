@@ -41,7 +41,7 @@ toc: true
 
 서브쿼리에 limit이 잡히기 전 order by만 존재하는, 마치 아래의 쿼리를 테스트하는 단계에 들어서게되었다.
 
-```query
+```sql
 select b.*
 from (
   select a.*
@@ -58,7 +58,7 @@ order by time desc, idx asc
 
 놀랍게도, time과 idx의 order by 절, 즉 아래의 구문이 아예 작동을 안하는 결과를 받을 수 있었다.
 
-```query
+```sql
 order by time asc, idx desc #limit N은 아직 제외된 상황
 ```
 
