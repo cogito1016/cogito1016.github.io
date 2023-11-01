@@ -159,3 +159,8 @@ toc: true
 - 그리고 고객들은 퀄리티 높은 포트폴리오를 선택할 확률이 높아지는 선순환이 만들어질 수도 있을겁니다!
 
 긴 글 읽어주셔서 감사합니다.
+
+---
+
+본 문서는 아임웹 기술문서에 기고된 글입니다.  
+https://medium.com/imweb-tech/%EB%A6%AC%EC%85%80%EB%9F%AC-%EB%9E%AD%ED%82%B9%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%B4%EB%9E%80-%EC%9C%A0%EC%97%B0%ED%95%98%EA%B3%A0-%ED%99%95%EC%9E%A5%EC%84%B1-%EC%9E%88%EB%8A%94-%EC%84%A4%EA%B3%84%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-486bca2e105f
