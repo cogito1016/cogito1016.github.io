@@ -124,7 +124,7 @@ repository.insert(insertDataList)
 TS2559: Type InsertDataDto[]  has no properties in common with type  Partial<T> 
 ```
 InsnertDtoData[]는 T엔티티와 공통속성이 없다는 뜻   
-InsnertDtoData만 전달했을때는 공통속성이 있다.   
+InsnertDtoData만 전달했을때는 공통속성이 있다.   
 그러나 InsnertDtoData[]를 전달했을때는 공통속성이 없다.
 
 # 3.해결
