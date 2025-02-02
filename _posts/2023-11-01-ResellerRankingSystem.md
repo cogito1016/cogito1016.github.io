@@ -55,7 +55,7 @@ toc: true
 랭킹을 매기려면 각 포트폴리오 별로 점수가 존재해야 합니다.  
 랭킹시스템에서는 점수를 산정하기 위한 점수항목으로 좋아요와 조회수 기능을 구현했습니다.
 
-![Alt text](image.png)
+![Alt text](https://cogito1016.github.io/images/2023-11-01-ResellerRankingSystem/image.png)
 
 2. 배점 상정 프로세스
 
@@ -121,7 +121,7 @@ toc: true
 
 모든 조건이 충족된 것을 볼 수 있습니다.
 
-![Alt text](image-1.png)
+![Alt text](https://cogito1016.github.io/images/2023-11-01-ResellerRankingSystem/image-1.png)
 
 # 그런데 로그테이블은 더 많은 사용처가 있을 것 같은데요?
 
