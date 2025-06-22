@@ -6,8 +6,6 @@ tag: ["db", "query", "refactoring", "[series]refactor-select-product"]
 toc: true
 ---
 
-# 상품 썸네일 배지 성능 개선기 1편: 초당 4,000건의 호출을 200건으로 줄인 이야기
-
 ![alt text](https://cogito1016.github.io/images/2025-06-05-reduceQureyRequest/image.png)  
 첨부된 이미지의 좌상단과 하단에 있는 배지가 보이시나요? 이번 글의 주인공입니다!
 
