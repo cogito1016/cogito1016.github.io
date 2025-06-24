@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Jekyll 관련 파일 차단
+Disallow: /_sass/
+Disallow: /assets/js/plugins/
+Disallow: /assets/js/vendor/
+Disallow: /assets/js/_main.js
+
+# 개발/테스트 관련 파일 차단
+Disallow: /test/
+Disallow: /docs/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.bundle/
+Disallow: /.sass-cache/
+Disallow: /.jekyll-assets-cache/
+
+# 기타 불필요한 파일들
+Disallow: /vendor/
+Disallow: /Gemfile
+Disallow: /Gruntfile.js
+Disallow: /gulpfile.js
+Disallow: /package.json
+Disallow: /Rakefile
+Disallow: /README
+Disallow: /LICENSE
+Disallow: /CHANGELOG
+Disallow: /banner.js
+
+# 사이트맵 위치 명시
+Sitemap: https://cogito1016.github.io/sitemap.xml 
