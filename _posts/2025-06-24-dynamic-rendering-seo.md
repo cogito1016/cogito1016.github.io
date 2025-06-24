@@ -154,23 +154,11 @@ converter.net은 이 원리를 정교하게 실현한 사례다.
 - [URL Structure Best Practices for Google Search](https://developers.google.com/search/docs/crawling-indexing/url-structure)  
   동적 URL과 정적 URL의 구조 설계 가이드
 
-- [Dynamic Rendering as a workaround – Google Search Central](https://developers.google.com/search/blog/2018/07/dynamic-rendering)  
-  JavaScript 기반 웹사이트의 검색 색인 대응 전략
-
 - [Dynamic URLs vs static URLs – Search Central Blog](https://developers.google.com/search/blog/2008/09/dynamic-urls-vs-static-urls)  
   동적 URL을 색인에 안전하게 사용하는 방법
 
 - [Understand JavaScript SEO Basics](https://developers.google.com/search/docs/crawling-indexing/javascript)  
   JavaScript 기반 페이지의 색인 방식과 구조 설계 팁
-
-- [Crawling and Indexing Overview](https://developers.google.com/search/docs/crawling-indexing/how-search-works)  
-  Googlebot이 어떻게 URL을 수집하고 색인하는지 개요
-
-- [Mobile‑first Indexing Best Practices](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-overview)  
-  모바일 기준 색인 방식에서 유의할 점 정리
-
-- [What Is Googlebot – Google Search Central](https://developers.google.com/search/docs/crawling-indexing/overview-googlebot)  
-  Googlebot의 기능, 역할, 동작 방식 개요
 
 - [Ask Google to Recrawl Your URLs](https://support.google.com/webmasters/answer/6065812)  
   URL Inspection 도구를 통한 색인 재요청 방법
