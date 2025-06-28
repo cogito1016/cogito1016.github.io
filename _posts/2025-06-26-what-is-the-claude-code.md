@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Claude Code 실무 적용기: AI가 프로젝트 전체를 이해한다는 것"
+title: "Claude Code 적용기: AI가 프로젝트 전체를 이해한다는 것"
 categories: "ai-tool"
-tag: ["ai", "ai-tool", "ai-agent", "claude"]
+tag: ["ai", "ai-tool", "ai-agent", "claude", "[series]claude-code"]
 toc: true
 ---
 
