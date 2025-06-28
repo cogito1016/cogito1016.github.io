@@ -6,7 +6,7 @@ tag: ["db", "query", "refactoring", "[series]refactor-select-product"]
 toc: true
 ---
 
-![alt text](https://cogito1016.github.io/images/2025-06-05-reduceQureyRequest/image.png)  
+![상품 썸네일에 표시되는 다양한 배지들 - 할인율, 무료배송, 베스트 등의 레이블이 적용된 상품 이미지](https://cogito1016.github.io/images/2025-06-05-reduceQureyRequest/image.png)  
 첨부된 이미지의 좌상단과 하단에 있는 배지가 보이시나요? 이번 글의 주인공입니다!
 
 ---

@@ -72,7 +72,7 @@ console.log(obj);
 console.log(obj instanceof User);
 ```
 ->   
-![alt text](https://cogito1016.github.io/images/2025-02-01-plainToInstance&InstanceToPlain/image-3.png)   
+![콘솔에서 일반 객체가 User 인스턴스가 아닌 Object로 출력되는 화면](https://cogito1016.github.io/images/2025-02-01-plainToInstance&InstanceToPlain/image-3.png)   
 object타입의 일반객체로만 나오게된다.
 
 그러나 일반객체를 클래스의 인스턴스로 변환해주는 아래의 코드를 수행한다면?
@@ -84,7 +84,7 @@ console.log(classObj instanceof User);
 console.log(classObj.getIntroduceMyself());
 ```
 ->    
-![alt text](https://cogito1016.github.io/images/2025-02-01-plainToInstance&InstanceToPlain/image-4.png)
+![plainToClass로 변환된 객체가 User 인스턴스로 변환되고 메서드를 사용할 수 있는 콘솔 출력](https://cogito1016.github.io/images/2025-02-01-plainToInstance&InstanceToPlain/image-4.png)
 
 ## 1.2.classToPlain
 classToPlain은,   
@@ -97,7 +97,7 @@ console.log(classObjToPlain);
 console.log(classObjToPlain instanceof User);
 ```
 ->   
-![alt text](https://cogito1016.github.io/images/2025-02-01-plainToInstance&InstanceToPlain/image-5.png)   
+![classToPlain으로 User 인스턴스가 다시 일반 객체로 변환된 콘솔 출력](https://cogito1016.github.io/images/2025-02-01-plainToInstance&InstanceToPlain/image-5.png)   
 결과는 최초 자바스크립트 일반객체였던 결과와 같다.
 
 이 외에 아래의 메서드들이 존재한다.
