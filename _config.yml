@@ -44,9 +44,9 @@ comments:
     theme: # "github-light" (default), "github-dark"
     issue_term: # "pathname" (default)
   giscus:
-    repo_id: # 필수: https://giscus.app 에서 생성된 repo_id 입력 필요
+    repo_id: "R_kgDOKZeYUQ"
     category_name: "General" # 토론 카테고리 이름
-    category_id: # 필수: https://giscus.app 에서 생성된 category_id 입력 필요
+    category_id: "DIC_kwDOKZeYUc4CsJJ5"
     discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled: '1' # '1' for enabled (default), '0' for disabled
     theme: "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
